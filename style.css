@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #202020;
+}
+
+.hello_page {
+    position: relative;
+    max-width: 1440px;
+    min-height: 710px;
+    margin: 0 auto;
+    padding: 212px 120px 122px;
+    background-color: rgb(200, 253, 148);
+    overflow: hidden;
+}
+
+.hello_page__content {
+    position: relative;
+    z-index: 1;
+    max-width: 779px;
+}
+
+.hello_page-main-text {
+    margin: 0;
+    max-width: 779px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.hello_page-description {
+    margin: 24px 0 0;
+    max-width: 690px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.hello_page-go_button {
+    display: block;
+    margin-top: 32px;
+    border: none;
+    border-radius: 60px;
+    height: 66px;
+    width: 247px;
+    padding: 12px 0;
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hello_page-go_button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.hello_page-image-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.hello_page-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: auto;
+}
+
+.hello_page-star-1 {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 63px;
+    top: 94px;
+
+}
+
+.hello_page-star-2 {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 948px;
+    top: 538px;
+
+}
+
+.hello_page-star-3 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 156px;
+    top: 69px;
+}
+
+.hello_page-star-4 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 1013px;
+    top: 568px;
+
+}
+
