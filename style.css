@@ -333,6 +333,21 @@ a {
     flex-shrink: 0;
 }
 
+.footer {
+    background-color: var(--color-accent);
+}
+
+.footer__content {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 61px 120px 60px;
+    color: var(--color-dark);
+    font-size: var(--font-size-text-lg);
+    font-weight: var(--font-weight-semibold);
+    line-height: 29px;
+    text-align: center;
+}
+
 @media (max-width: 767px) {
     .hello_page {
         min-height: 700px;
@@ -482,6 +497,12 @@ a {
         width: 100%;
         height: auto;
     }
+
+    .footer__content {
+        padding: 40px 16px;
+        font-size: var(--font-size-text-sm);
+        line-height: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -627,6 +648,12 @@ a {
     .mini_games-card__image {
         width: 100%;
         height: auto;
+    }
+
+    .footer__content {
+        padding: 40px 32px;
+        font-size: 20px;
+        line-height: 25px;
     }
 }
 
