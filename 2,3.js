@@ -130,7 +130,4 @@ switch (nomberOfMounth) {
     case 12:
         console.log("Зима");
         break;
-    default:
-        console.log("Нет такого месяца");
-        break;
 }
