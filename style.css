@@ -43,7 +43,6 @@ a {
 
 .hello-page {
     position: relative;
-    max-width: 1440px;
     min-height: 710px;
     margin: 0 auto;
     padding: 212px 120px 122px;
