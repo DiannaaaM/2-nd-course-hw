@@ -1,21 +1,14 @@
 // Задание 1
 const mass = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < mass.length; i++) {
-    if (i < 10) {
-        console.log(i);
-    } else {
+    console.log(mass[i]);
+    if (mass[i] === 10) {
         break;
     }
 }
 // Задание 2
-const mass = [1, 5, 4, 10, 0, 3];
-for (let i = 0; i < mass.length; i++) {
-    if (i == 4) {
-        console.log(i);
-    } else {
-        break;
-    }
-}
+const mass2 = [1, 5, 4, 10, 0, 3];
+console.log(mass2[4]);
 // Задание 3
 const nums = [1, 3, 5, 10, 20];
 console.log(nums.join(' '))
@@ -29,9 +22,34 @@ for (let i = 0; i < 3; i++) {
 }
 console.log(matrix);
 // Задание 5
+let arr5 = [1, 1, 1];
+arr5.push(2, 2, 2);
+console.log(arr5);
 
 // Задание 6
+let arr6 = [9, 8, 7, 'a', 6, 5];
+arr6.sort();
+for (let i = 0; i < arr6.length; i++) {
+    if (arr6[i] === 'a') {
+        arr6.splice(i, 1);
+    }
+}
+console.log(arr6);
+
 // Задание 7
+let arr7 = [9, 8, 7, 6, 5];
+let guess = prompt('Угадай число');
+let isGuess = false;
+for (let i = 0; i < arr7.length; i++) {
+    if (arr7[i] == guess) {
+        isGuess = true;
+    }
+}
+if (isGuess) {
+    alert('Угадал');
+} else {
+    alert('Не угадал');
+}
 
 // Задание 8
 let str = 'abcdef';

@@ -44,10 +44,17 @@ a {
 .hello-page {
     position: relative;
     min-height: 710px;
-    margin: 0 auto;
-    padding: 212px 120px 122px;
+    padding: 212px 0 122px;
     background-color: var(--color-accent-light);
     overflow: hidden;
+}
+
+.hello-page__container {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 120px;
+    min-height: 376px;
 }
 
 .hello-page__content {
@@ -350,8 +357,12 @@ a {
 @media (max-width: 767px) {
     .hello-page {
         min-height: 700px;
+        padding: 0 0 32px;
+    }
+
+    .hello-page__container {
         max-width: 100%;
-        padding: 0 16px 32px;
+        padding: 0 16px;
     }
 
     .hello-page__content {
@@ -507,7 +518,12 @@ a {
 @media (min-width: 768px) and (max-width: 1024px) {
     .hello-page {
         min-height: 700px;
-        padding: 0 32px 48px;
+        padding: 0 0 48px;
+    }
+
+    .hello-page__container {
+        max-width: 100%;
+        padding: 0 32px;
     }
 
     .hello-page__content {
